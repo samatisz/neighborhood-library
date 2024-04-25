@@ -97,7 +97,7 @@ public class NeighborhoodLibrary {
             Book book = books[i];
             if (book.isCheckedOut()) {
                 //this gets the first book and then continues
-                System.out.println("    " + book.getId() + "." + " [ " + book.getIsbn() + " ] " + book.getTitle() + " (checked out to by: " + book.getCheckedOutTo() + ")");
+                System.out.println("    " + book.getId() + "." + " [ " + book.getIsbn() + " ] " + book.getTitle() + " (checked out to by: " + book.getCheckedOutTo() + ")\n");
             }
         }
 
